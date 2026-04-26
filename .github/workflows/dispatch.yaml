@@ -68,7 +68,7 @@ jobs:
           submodules: recursive
           token: ${{ secrets.CROWDIN_SYNC_GITHUB_PAT }}
           fetch-depth: 0
-      - uses: obsproject/obs-crowdin-sync/download@430665179ed13233af2d83ec192c2ae8c40a29ae
+      - uses: obsproject/obs-crowdin-sync/download@7a52ff9b66263ee48a929d2c7e888deb3fa1bdb3
 
   steam-upload:
     name: Upload Steam Builds 🚂
